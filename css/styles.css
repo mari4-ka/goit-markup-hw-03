@@ -176,7 +176,10 @@ button {
 .link {
   text-decoration: none;
 }
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*hidden title - Наши решения - dicision*/
 .visually-hidden {
   position: absolute;
@@ -211,13 +214,9 @@ button {
   font-size: 14px;
   line-height: 1.7;
 }
-.section.decision > .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 /*чем мы занимаемся work*/
-.section > .container {
-  padding-bottom: 94px;
+.section.work {
+  padding-top: 0px;
 }
 .work-title {
   margin-top: 0px;
@@ -240,11 +239,6 @@ button {
 /*наша команда - team*/
 .section.team {
   background-color: var(--secondary-bg-color);
-}
-.container.team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-bottom: 0px;
 }
 .team-title {
   margin-top: 0px;
@@ -296,10 +290,6 @@ button {
 
 .header.border {
   border-bottom: 1px solid var(--border-color);
-}
-.container.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .filter {
   display: inline-block;
@@ -377,6 +367,7 @@ button {
   padding-bottom: 20px;
   padding-left: 24px;
   border: 1px solid #eeeeee;
+  border-top: transparent;
 }
 .card-set .link {
   display: block;
